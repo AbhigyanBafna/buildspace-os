@@ -27,8 +27,10 @@ Once you select it you should see this (nice you did it!)<br>
 Now you can see this thing in action! Open a new tab and you'll notice that there is a prompt saying that the page was changed by the buildspace os extension. **Make sure to select keep it or it will not work.**<br>
 ![](https://i.imgur.com/UtvBBmW.png)
 
+~ Abhigyan In :X <br>
+
 ### 5. Set Color & House Name (skip if you are alterok)
-Now, this would require a teeny bit of coding but dw, it's super easy. Head over to the `buildspace-os-main` folder. Open `tab_override.html` in your Code-editor or Notepad. Scroll down till you see the code below. Set your House Color and House Name and you are good to go! <br>
+Now, this would require a teeny bit of coding but dw, it's super easy. Head over to the `buildspace-os-main` folder. Open `tab_override.html` in your Code Editor or Notepad. Scroll down till you see the code below. Set your House Color and House Name and you are good to go! <br>
 
 ```
 .container::before {
@@ -67,7 +69,7 @@ Now, this would require a teeny bit of coding but dw, it's super easy. Head over
 
 <img width="1440" alt="alterok" src="https://user-images.githubusercontent.com/101444239/230771688-bed15037-d2a0-4d3c-af50-483df71119aa.png">
 
-PS - If you don't like quotes simply delete `quotes.js` located in the same folder.
+PS - If you don't like quotes at the bottom simply delete `quotes.js` located in the same folder.
 
 ~ Abhigyan Out :) <br>
 
