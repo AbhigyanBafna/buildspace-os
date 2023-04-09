@@ -3,13 +3,17 @@
 
 <head>
     <title>buildspace os</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #000000;
             margin: 0;
         }
 
         .container {
+            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -19,7 +23,37 @@
 
         .container iframe {
             border: 0;
+            background-color: #000000;
         }
+
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Set your House Color below
+            spectreseek: #a22b24 , guadmire: #abb818 , erevald: #14843e */
+            background-color: #143099; 
+            opacity: 0.3; /* Adjust to your liking */
+            pointer-events: none;
+        }
+
+        .container::after { 
+            /* Set your House Name below */
+            content: "alterok";
+            padding-bottom: 10%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 5rem;
+            color: #ffffff;
+            font-family: 'Manrope', 'Poppins', sans-serif; 
+            font-weight: 800;
+        }
+        
     </style>
 </head>
 
@@ -27,6 +61,7 @@
     <div class="container">
         <iframe src="https://buildspace.so/home" width="100%" height="100%"></iframe>
     </div>
+    <script src="./quotes.js"></script>
 </body>
 
 </html>
